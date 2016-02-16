@@ -1,0 +1,10 @@
+인자를 받는 main 함수
+
+
+int main(int argc, char* argv[]) //char** argv도 가능
+/*
+argc:argument count 명령행 개수
+argv:argument vector 명령행 메모리 목록(배열)
+
+컴파일시 해당 프로젝트가 있는 debug폴더에 exe파일이 생성됨 
+명령어 프롬프트로 해당파일의 이름과 함께 인자값 전달하면 됨
